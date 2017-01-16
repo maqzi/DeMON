@@ -1,11 +1,9 @@
 # DeMON: Deception Miner for Opinions & Notions
 
-DeMON mines 1.6 million reviews for 63000 electronics collected from Amazon and made openly available  by Dr. McAuley [1][2], visualizes and tries to mine them for fake and genuine reviews. This goes ahead hand in hand with estimating how reliable amazon reviews can be before making buying decisions. DeMON
-using a python and R duo, successfully pinpoints 49 products which are highly likely to be fake
-ones using a combination of Cosine Similarity [3][4] for reviews and studying anomalies in posting
-times per product.
+DeMON mines 1.6 million reviews for 63000 electronics collected from Amazon and made openly available  by Dr. McAuley [1][2], visualizes and tries to mine them for fake and genuine reviews. This goes ahead hand in hand with estimating how reliable amazon reviews can be before making buying decisions. DeMON using a python and R duo, successfully pinpoints 49 products which are highly likely to be fake ones using a combination of Cosine Similarity [3][4] for reviews and studying anomalies in posting times per product.
 
 ## Instructions
+Note: Download dataset from the link present in data>link.txt file. Any dataset here should work with DeMON because of the uniformity of fields in all sets. For my work, I used the Electronics 5-Core and Cellphones 5-Core sets along with the Metadata dataset.
 
 1. Get complete data set in MongoDB using bash. (not necessary, but helps to visualize the dataset)
 	- Run MongoServer
